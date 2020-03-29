@@ -15,6 +15,15 @@ npx express-generator debug-with-node
 + "start": "node inspect ./bin/www"
 ```
 
+### 添加断点 **debugger**
+
+```js
+router.get("/", function(req, res, next) {
+  debugger;
+  res.render("index", { title: "Express" });
+});
+```
+
 那么在执行的时候就会进入 `DEBUG` 模式，**启动后，调试器会在代码第一行进行调试状态**
 
 示例：
