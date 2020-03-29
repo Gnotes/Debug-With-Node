@@ -1,6 +1,6 @@
 # NodeJS 中的代码调试
 
-### 命令行方式
+## 命令行方式
 
 在执行 node 程序时添加 `inspect` 参数(针对新版 Node 哈，老的用 `debug`)，如使用 `express-generator` 创建一个最简单的项目
 
@@ -144,3 +144,7 @@ version
   ]
 }
 ```
+
+## 参考
+
+- [使用 Node.js 自带的 V8 调试器调试 Node 程序](https://itbilu.com/nodejs/core/VyMcjFEw.html)
